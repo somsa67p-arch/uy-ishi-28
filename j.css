@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.contanier{
+    max-width: 1580px;
+    margin: 0;
+    background-color: rgba(250, 250, 250, 1);
+}
+.card{
+    box-shadow: 0  0 30px rgb(90, 90, 90);
+    height: 190px;
+}
+.box{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    padding-top: 29px;
+    gap: 20px;
+    padding-left: 75px;
+}
+.box_1{
+    box-shadow: 0  0 30px rgb(90, 90, 90);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    width: 100%;
+    margin-top: -40px;
+    height: 110px;
+}
+.text{
+    color: white;
+}
+.text_1{
+    color: rgba(255, 255, 255, 0.3)
+    ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+nav,ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.text_2{
+    margin-top: -10px;
+    color: black;
+    margin-left: -60px;
+}
+.text_3{
+    color: rgb(57, 56, 56);
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.text_4{
+    color: rgb(75, 75, 75);
+    margin-top: 10px;
+    font-size: 20px;
+}
+.button{
+    margin-top: -5px;
+    height: 40px;
+    width: 70px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 240px;
+    transition: all 0.7s ease;
+}
+.button:hover{
+    background-color: rgba(255, 192, 0, 1);
+}
+.button_1{
+    background-color: rgba(255, 192, 0, 1);
+    margin-top: -5px;
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+    margin-left: -100px;
+    transition: all 0.7s ease;
+}
+.button_1:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.img{
+    margin-left: -120px;
+    width: 30px;
+    height: 30px;
+}
+.text_5{
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    transition: all 2s ease;
+}
+.text_5:hover{
+    transform: rotate(-10deg);
+}
+.card_1{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 30px;
+}
+.img_1{
+    width: 290px;
+}
+.card_2{
+    display: flex;
+    margin-top: 30px;
+}
+.text_6{
+    margin-left: 180px;
+}
+.text_7{
+    margin-left: 130px;
+}
+.text_8{
+    margin-left: 180px;
+}
+.text_9{
+    margin-left: 200px;
+}
+.text_10{
+    margin-left: 230px;
+}
+.text_11{
+    margin-left: 190px;
+}
+.text_12{
+    margin-left: 170px;
+}
+.text_13{
+    margin-left: 160px;
+}
+.card_3{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 130px;
+    gap: 30px;
+}
+.card_4{
+    margin-left: 170px;
+    display: flex;
+    gap: 130px;
+    margin-top: 20px;
+}
+.footer{
+    background-color: white;
+    height: 330px;
+    margin-top: 60px;
+}
+.g{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.g1{
+    display: flex;
+    padding-top: 30px;
+}
+.t100{
+    margin-left: 140px;
+}
+.t101{
+    margin-left: 175px;
+}
+.t102{
+    margin-left: 265px;
+}
+.t103{
+    margin-left: 290px;
+}
+.t4{
+    margin-left: 550px;
+    margin-top: -60px;
+}
+.t6{
+    margin-left: 263px;
+    margin-top: -60px;
+}
+.t7{
+    margin-left: 300px;
+    margin-top: -60px;
+}
+.img_7{
+    margin-left: 130px;
+    height: 140px;
+    animation: move 8s linear infinite;
+}
+@keyframes move{
+    from{
+        transform: rotate(odeg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.t8{
+    margin-left: 932px;
+    margin-top: -190px;
+}
+.t9{
+    margin-left: 270px;
+    margin-top: -190px;
+}
+.t10{
+    margin-left: 932px;
+    margin-top: -180px;
+}
+.t11{
+    margin-left: 232px;
+    margin-top: -180px;
+}
+.t12{
+    margin-top: -140px;
+    margin-left: 1275px;
+}
+.t13{
+    margin-left: 1275px;
+    margin-top: 18px;
+}
